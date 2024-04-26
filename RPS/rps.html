@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="rps.css" rel="stylesheet" type="text/css" />
+  <title>RPS</title>
+</head>
+
+<body>
+  
+  <h1>Rock Paper Scissors</h1>
+  <input type="text" id="playerChoice" placeholder="Enter Rock, Paper, or Scissors">
+  <button onclick="playGame(document.getElementById('playerChoice').value)">Play</button> 
+  <!-- so that button can get the value of player input -->
+  <div id="result"></div>
+<!-- Gave scoreboard id's to target -->
+  <div id="scoreBoard">
+    <h2>Score</h2>
+    <p>player:<span id="playerScore">0</span></p>
+    <p>player:<span id="computerScore">0</span></p>
+  </div>
+
+  <script src="rps.js"></script>
+  
+</body>
+
+</html>

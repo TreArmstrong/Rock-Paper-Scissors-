@@ -1,0 +1,39 @@
+*{
+  background-color: rgb(59, 50, 53);
+  color: yellow;
+  
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  #result {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  #scoreBoard{
+    margin-top: 20px;
+  }
+
+  #scoreBoard h2{
+    font-size: 16px;
+    
+  }
+
+  #scoreBoard p{
+    font-size: 14px;
+  }
+
+  #scoreBoard span{
+    font-weight: bold;
+  }
+
+  button {
+    background-color: rgb(7, 244, 137);
+  }
+
+  button:hover {
+    color: white;
+  }
